@@ -1,0 +1,41 @@
+{
+  "name": "minecraft-discord-bot",
+  "version": "2.0.0",
+  "description": "Minecraft sunucu yönetimi için profesyonel Discord bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "deploy": "node deploy-commands.js",
+    "test": "node index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "minecraft",
+    "rcon",
+    "server-management"
+  ],
+  "author": "Huarch",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^14.24.2",
+    "dotenv": "^16.6.1",
+    "rcon-client": "^4.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Huarch/minecraft-discord-bot"
+  },
+  "bugs": {
+    "url": "https://github.com/Huarch/minecraft-discord-bot/issues"
+  },
+  "homepage": "https://github.com/Huarch/minecraft-discord-bot#readme"
+}
